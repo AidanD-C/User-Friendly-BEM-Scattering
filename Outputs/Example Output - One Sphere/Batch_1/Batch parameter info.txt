@@ -1,0 +1,5 @@
+Incident wavelength: 1um
+Incident polarization: [1. 0. 0.]
+Incident direction: [0. 0. 1.]
+Wave number in medium: 6.283185307179586um^-1
+Unsing GMRES: False

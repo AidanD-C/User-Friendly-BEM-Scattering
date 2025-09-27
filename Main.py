@@ -23,7 +23,7 @@ sim.solve()
 # Plotting scattered field intensity on sensor:
 # Each of the length values here are in units of the unit variable.
 sensor1 = Sensor(distance=10000, theta=0, gamma=0, width=10000, height=10000, width_samples=300, height_samples=300)
-# Remember that below, sensors must be a list of Sensor types, so even if you just want one sensor, you must write sensors = [sensor] not sensors = sensor
+# Remember that below, sensors must be a LIST of Sensor instances, so even if you just want one sensor, you must write sensors = [sensor] not sensors = sensor
 sim.plot_sensor_intensity(sensors=[sensor1], signal_boost=signal_boost)
 
 # End timer:
