@@ -27,7 +27,7 @@ Next, you might want to set up a python virtual environment in the User-Friendly
 ```bash
 cd User-Friendly-BEM-Scattering
 
-# include ".venv\Scripts\Activate.ps1" here if using a virtual environment which has not been activated in your current terminal yet.
+# activate your virtual environment here if you chose to use one.
 
 pip install -r requirements.txt
 ```
