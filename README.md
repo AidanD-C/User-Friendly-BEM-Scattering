@@ -44,21 +44,25 @@ As long as the gmsh folder you extracted from the zip file is somwhere in the Us
 ### Scattering off of a long bacteria:
 Gmsh preview:
 
-To be added...
+<p align="center">
+  <img src="Images\Long Bacteria.png" alt="Image 2" width="40%">
+</p>
 
 Output:
 <p align="center">
-  <img src="Outputs\Example Output - One Long Bacteria\Batch_1\sensor_intensity_plot_1.png" alt="Image 2" width="40%">
+  <img src="Images\Bacteria Sensor.png" alt="Image 2" width="40%">
 </p>
 
 ### Scattering off of a single sphere:
 Gmsh preview:
 
-To be added...
+<p align="center">
+  <img src="Images\Sphere.png" alt="Image 3" width="40%">
+</p>
 
 Output:
 <p align="center">
-  <img src="Outputs\Example Output - One Sphere\Batch_1\sensor_intensity_plot_1.png" alt="Image 3" width="40%">
+  <img src="Images\Sphere Sensor.png" alt="Image 4" width="40%">
 </p>
 
 ## Notes and warnings on the current state of UFBS:
