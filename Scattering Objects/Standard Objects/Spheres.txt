@@ -1,0 +1,1 @@
+# x y z (relative permittivity) (relative permeability) radius (max element size) #
