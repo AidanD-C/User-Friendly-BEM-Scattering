@@ -32,16 +32,34 @@ cd User-Friendly-BEM-Scattering
 pip install -r requirements.txt
 ```
 
-In order to visualize scattering objects, you will also need to download gmsh. This is different from using pip to install gmsh since what we're really after is the gmsh.exe file which is not downloaded through "pip install gmsh". Here's a link to the download page: https://gmsh.info/. On that download page, in the "Current stable release" section, there should be a line that says "Download Gmsh for...". Clicking on whichever platform you are using (Windows, Mac, or Linux) will download a zip file. The contents of that zip file should be extracted into the User-Friendly-BEM-Scattering folder so that it can be found by UFBS. For example, at the time of writing this, using the download link for windows it downloads a gmsh-4.14.0-Windows64.zip file which contains a single folder named gmsh-4.14.0-Windows64. This folder should be placed into the User-Friendly-BEM-Scattering folder so that after all is done the contents of the User-Friendly-BEM-Scattering folder look like the following on windows:
+In order to visualize scattering objects, you will also need to download gmsh. This is different from using pip to install gmsh since what we're really after is the gmsh.exe file which is not downloaded through "pip install gmsh". Here's a link to the download page: https://gmsh.info/. On that download page, in the "Current stable release" section, there should be a line that says "Download Gmsh for...". Clicking on whichever platform you are using (Windows, Mac, or Linux) will download a zip file. The contents of that zip file should be extracted into the User-Friendly-BEM-Scattering folder so that it can be found by UFBS. For example, at the time of writing this, using the download link for windows it downloads a gmsh-4.14.0-Windows64.zip file which contains a single folder named gmsh-4.14.0-Windows64. This folder should be placed into the User-Friendly-BEM-Scattering folder so that after all is done, the contents of the User-Friendly-BEM-Scattering folder should look like the following (or something similar since this image shows the layout on windows):
 <p align="center">
-  <img src="Images/Setup Screenshot.png" alt="My Image" width="27%">
+  <img src="Images/Setup Screenshot.png" alt="Image1" width="27%">
 </p>
 Though the .venv folder might not be present if you chose not to use a python virtual environment.
 
 As long as the gmsh folder you extracted from the zip file is somwhere in the User-Friendly-BEM-Scattering folder, UFBS will be able to locate the gmsh.exe file it needs.
 
 ## Example outputs:
-To be completed...
+### Scattering off of a long bacteria:
+Gmsh preview:
+
+To be added...
+
+Output:
+<p align="center">
+  <img src="Outputs\Example Output - One Long Bacteria\Batch_1\sensor_intensity_plot_1.png" alt="My Image" width="40%">
+</p>
+
+### Scattering off of a single sphere:
+Gmsh preview:
+
+To be added...
+
+Output:
+<p align="center">
+  <img src="Outputs\Example Output - One Sphere\Batch_1\sensor_intensity_plot_1.png" alt="My Image" width="40%">
+</p>
 
 ## Notes and warnings on the current state of UFBS:
 - UFBS has not yet undergone a rigorous set of tests to ensure its results are physically accurate. It has undergone a mild set of tests to verify its results are reasonable, but not enough tests to be considered complete. The outputs of this software should not yet be trusted completely.
